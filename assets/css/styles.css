@@ -62,7 +62,7 @@ aside img {
     float: left;
     margin: 0 1rem 1rem 0;
 }
-picture { margin: 2rem 0; display: block; padding: 2rem 0 0 2rem; }
+picture { margin: 2rem 0; display: block; }
 picture img { 
     border: 10px yellow groove;
     width: 100%;
@@ -71,4 +71,5 @@ picture img {
     @media (min-width: 750px) {
         article { position: relative; }
         aside { position: absolute; top: 0; left: 0; max-width: 350px; }
+        picture { padding: 2rem 0 0 2rem; }
     }
